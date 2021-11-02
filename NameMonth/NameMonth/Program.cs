@@ -14,7 +14,7 @@ namespace NameMonth
 
             Console.WriteLine(date.ToString("MMMM"));
 
-
+            Console.ReadKey();
         }
     }
 }

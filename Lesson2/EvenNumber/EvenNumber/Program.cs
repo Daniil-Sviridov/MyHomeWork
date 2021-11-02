@@ -9,6 +9,8 @@ namespace EvenNumber
             int Num = 0;
             string str = "";
 
+            Console.WriteLine("Введите целое число:");
+
             try
             {
                 str = Console.ReadLine();
@@ -26,11 +28,11 @@ namespace EvenNumber
 
             if (Num % 2 == 0) 
                 {
-                Console.Write("Ага");
+                Console.Write("Да.");
             } 
             else 
                 {
-                Console.Write("Неа");
+                Console.Write("Нет.");
                 };
 
             Console.ReadKey();

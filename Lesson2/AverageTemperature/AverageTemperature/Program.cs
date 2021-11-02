@@ -16,6 +16,7 @@ namespace AverageTemperature
 
             Console.WriteLine($"Средняя температура  {(minTemp + maxTemp) / 2}");
 
+            Console.ReadKey();
 
 
         }

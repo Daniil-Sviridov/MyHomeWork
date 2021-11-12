@@ -14,26 +14,25 @@ namespace L5T3_SaveBFile
             var arr =  Str.Split(new[] {" "}, StringSplitOptions.RemoveEmptyEntries).Select(int.Parse).ToArray();
 
             BinaryFormatter Bformatter = new BinaryFormatter();
-
-            FileStream FS = new FileStream("Bformatter.dat", FileMode.OpenOrCreate);
-                
-                Bformatter.Serialize(FS, arr);
-
-
-                
-                //Console.WriteLine(Bformatter.Deserialize(FS).ToString());
-
-                /*int[] Array;
-                
-                Array = (int[])Bformatter.Deserialize(FS);
-                */
-
-
-                /*for (int i = 0; i < Array.Length; i++)
-                    {
-                    Console.WriteLine(Array[i]);
-                    }*/
             
+            using (FileStream FS = new FileStream("Bformatter.dat", FileMode.OpenOrCreate))
+            {                
+                Bformatter.Serialize(FS, arr);
+            }
+                                        
+            using (FileStream fs = File.OpenRead("Bformatter.dat"))
+                {
+                    int[] x = (int[])Bformatter.Deserialize(fs);
+
+                    Console.WriteLine("Десериализация");
+                    for (int i = 0; i < x.Length; i++)
+                    {
+                    Console.Write($" {x[i]}");
+                    }
+                Console.Write("\n");
+            }
+           
+
 
         }
     }

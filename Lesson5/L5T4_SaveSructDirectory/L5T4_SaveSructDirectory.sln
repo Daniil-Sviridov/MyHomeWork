@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "L5T4_SaveSructDirectory", "L5T4_SaveSructDirectory\L5T4_SaveSructDirectory.csproj", "{750B4E5A-3952-49A6-8C35-F26FAE7439EA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{750B4E5A-3952-49A6-8C35-F26FAE7439EA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750B4E5A-3952-49A6-8C35-F26FAE7439EA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750B4E5A-3952-49A6-8C35-F26FAE7439EA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750B4E5A-3952-49A6-8C35-F26FAE7439EA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC9AF54F-D834-43B9-925B-9565CA742179}
+	EndGlobalSection
+EndGlobal

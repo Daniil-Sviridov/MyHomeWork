@@ -11,7 +11,9 @@ namespace L7T1_Disasm
                 Console.WriteLine(s);
                 };
             Console.WriteLine("Hello World!");
+            //Тест
             Console.ReadKey();
+            Console.WriteLine("!");
         }
     }
 }

@@ -25,9 +25,9 @@ namespace L6_TaskMgr
                 {
                     Console.Clear();
                     Console.WriteLine("Что делать?");
-                    Console.WriteLine("1  - Вывести список");
-                    Console.WriteLine("2  - Завершить процесс");
-                    Console.WriteLine("Ex - Выход");
+                    Console.WriteLine("1 : Вывести список");
+                    Console.WriteLine("2 : Завершить процесс");
+                    Console.WriteLine("Ex : Выход");
                     string str1 = Console.ReadLine();
                     if (!(str1 == "1"))
                     {
